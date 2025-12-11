@@ -353,7 +353,7 @@ const ServiciosPage = () => (
     </motion.div>
 
     <motion.section
-      className="mx-auto mt-6 flex w-full max-w-4xl flex-col gap-3 px-6 text-left md:mt-8 md:gap-4 md:px-10"
+      className="mx-auto mt-6 flex w-full max-w-4xl flex-col gap-3 px-6 pb-16 text-left md:mt-8 md:gap-4 md:px-10"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.3 }}
