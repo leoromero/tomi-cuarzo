@@ -63,9 +63,9 @@ const Header = () => {
                       key={section.id}
                       to={section.href}
                       className={cn(
-                        'relative px-3 py-1 text-sm font-medium transition-colors duration-200',
+                        'relative whitespace-nowrap px-3 py-1 text-sm font-medium transition-colors duration-200',
                         isContacto
-                          ? 'bg-white px-4 py-1.5 text-brand-nav shadow-sm hover:bg-white/90'
+                          ? 'bg-white px-3 py-1.5 text-brand-nav shadow-sm hover:bg-white/90'
                           : 'text-white/80',
                         !isContacto &&
                           (isActive(section.href)
